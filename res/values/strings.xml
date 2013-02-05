@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DataFileWriterTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="btnNext">weiter</string>
+    <string name="vorname">Vorname:</string>
+    <string name="nachname">Nachname:</string>
+    <string name="bruttoGehalt">Bruttogehalt:</string>
+    <string name="nettoGehalt">Nettogehalt:</string>
+    <string name="btnUserData">UserData</string>
+    <string name="btnCreateFile">Create File</string>
+
+</resources>

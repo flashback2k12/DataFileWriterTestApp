@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:ignore="Overdraw" >
+
+    <TextView
+        android:id="@+id/lbl01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:hint="@string/vorname"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:id="@+id/lbl02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lbl01"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:hint="@string/nachname"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:id="@+id/lbl03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lbl02"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:hint="@string/bruttoGehalt"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:id="@+id/lbl04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lbl03"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:hint="@string/nettoGehalt"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffffff" />
+
+    <Button
+        android:id="@+id/btnCreateFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnUserData"
+        android:layout_alignBottom="@+id/btnUserData"
+        android:layout_alignLeft="@+id/lbl01"
+        android:layout_marginLeft="42dp"
+        android:text="@string/btnCreateFile"
+        android:textColor="#ffffffff" />
+
+    <Button
+        android:id="@+id/btnUserData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/lbl01"
+        android:layout_below="@+id/lbl04"
+        android:layout_marginRight="49dp"
+        android:layout_marginTop="107dp"
+        android:text="@string/btnUserData"
+        android:textColor="#ffffffff" />
+
+</RelativeLayout>
