@@ -76,4 +76,24 @@
         android:text="@string/btnUserData"
         android:textColor="#ffffffff" />
 
+    <TextView
+        android:id="@+id/lbl05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/lbl04"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:hint="@string/diffBruttoNetto"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/btnDiffBrNe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnUserData"
+        android:layout_below="@+id/btnUserData"
+        android:layout_marginTop="20dp"
+        android:text="@string/btnBerechne" />
+
 </RelativeLayout>

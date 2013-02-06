@@ -72,6 +72,7 @@
         android:layout_alignBottom="@+id/textView1"
         android:layout_alignLeft="@+id/textView2"
         android:layout_marginLeft="29dp"
+        android:layout_marginRight="5dp"
         android:ems="10"
         android:inputType="textCapWords|textAutoCorrect" >
 
@@ -85,6 +86,7 @@
         android:layout_alignBaseline="@+id/textView3"
         android:layout_alignBottom="@+id/textView3"
         android:layout_alignLeft="@+id/etVorname"
+        android:layout_marginRight="5dp"
         android:ems="10"
         android:inputType="textCapWords|textAutoCorrect" />
 
@@ -95,6 +97,7 @@
         android:layout_alignBaseline="@+id/textView4"
         android:layout_alignBottom="@+id/textView4"
         android:layout_alignLeft="@+id/etNachname"
+        android:layout_marginRight="5dp"
         android:ems="10"
         android:inputType="numberDecimal" />
 
@@ -102,8 +105,10 @@
         android:id="@+id/etNettoGehalt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView5"
+        android:layout_alignBottom="@+id/textView5"
         android:layout_alignLeft="@+id/etBruttoGehalt"
-        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
         android:ems="10"
         android:inputType="numberDecimal" />
 

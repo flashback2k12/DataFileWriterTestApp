@@ -10,5 +10,8 @@
     <string name="nettoGehalt">Nettogehalt:</string>
     <string name="btnUserData">UserData</string>
     <string name="btnCreateFile">Create File</string>
+    <string name="diffBruttoNetto">Differenz</string>
+    <string name="btnBerechne">Differnz</string>
+    <string name="_sdcard_aaatest">/sdcard/AAAtest</string>
 
 </resources>

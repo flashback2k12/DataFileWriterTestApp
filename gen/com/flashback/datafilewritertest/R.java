@@ -16,32 +16,37 @@ public final class R {
     }
     public static final class id {
         public static final int btnCreateFile=0x7f050004;
-        public static final int btnNext=0x7f05000b;
+        public static final int btnDiffBrNe=0x7f050007;
+        public static final int btnNext=0x7f05000d;
         public static final int btnUserData=0x7f050005;
-        public static final int etBruttoGehalt=0x7f05000e;
-        public static final int etNachname=0x7f05000d;
-        public static final int etNettoGehalt=0x7f05000f;
-        public static final int etVorname=0x7f05000c;
+        public static final int etBruttoGehalt=0x7f050010;
+        public static final int etNachname=0x7f05000f;
+        public static final int etNettoGehalt=0x7f050011;
+        public static final int etVorname=0x7f05000e;
         public static final int lbl01=0x7f050000;
         public static final int lbl02=0x7f050001;
         public static final int lbl03=0x7f050002;
         public static final int lbl04=0x7f050003;
-        public static final int textView1=0x7f050007;
-        public static final int textView2=0x7f050006;
-        public static final int textView3=0x7f050008;
-        public static final int textView4=0x7f050009;
-        public static final int textView5=0x7f05000a;
+        public static final int lbl05=0x7f050006;
+        public static final int textView1=0x7f050009;
+        public static final int textView2=0x7f050008;
+        public static final int textView3=0x7f05000a;
+        public static final int textView4=0x7f05000b;
+        public static final int textView5=0x7f05000c;
     }
     public static final class layout {
         public static final int activity_file_writer=0x7f030000;
         public static final int activity_start=0x7f030001;
     }
     public static final class string {
+        public static final int _sdcard_aaatest=0x7f04000b;
         public static final int app_name=0x7f040000;
         public static final int bruttoGehalt=0x7f040005;
+        public static final int btnBerechne=0x7f04000a;
         public static final int btnCreateFile=0x7f040008;
         public static final int btnNext=0x7f040002;
         public static final int btnUserData=0x7f040007;
+        public static final int diffBruttoNetto=0x7f040009;
         public static final int hello_world=0x7f040001;
         public static final int nachname=0x7f040004;
         public static final int nettoGehalt=0x7f040006;
